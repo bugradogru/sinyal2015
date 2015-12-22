@@ -1,3 +1,4 @@
-function [x,t]=note (genlik, frekans, vurus)
-t=0:1/1000000;vurus;
-x=genlik*sin(2*pi*frekans*t) ;
+function[x,t]=note(frekans,vurus) % Verilen 3 değere göre sinüs sinyali oluşturur.
+fs=8192;
+t=0:1/fs:(vurus-1/fs); %0 dan dura kadar 1/(100*ff) kadar artıyor.
+x=sin(2*pi*frekans*t); % Girilen bilgi çıkışında sinüs sinyali döndürüldü
