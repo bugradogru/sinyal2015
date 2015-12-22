@@ -9,3 +9,4 @@ notalar.png: secilen sarkilarin notalari var
 notalar.txt: notalarin sureleri var
 
 pdfteki oktav tablasunda bir notanin oktavlari arasinda iki kat oran vardir.
+Oktavlar eklendi.
