@@ -1,4 +1,4 @@
-ÖLÇÜLER
+OLCULER
 La,4,1/2
 Do,5,1/2
 Re,5,1/2
